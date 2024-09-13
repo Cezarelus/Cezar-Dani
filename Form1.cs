@@ -4,12 +4,12 @@ using System.Net;
 using System.Windows.Forms;
 using static System.ComponentModel.Design.ObjectSelectorEditor;
 
-namespace UniCatalog
+namespace Pinci_Catalog
 {
     public partial class Form1 : Form
     {
         private readonly List<Account> accountList;
-        private readonly string connectionString = "Server=localhost;Database=unicatalog;Uid=root;";
+        private readonly string connectionString = "Server=localhost;Database=pinci_catalog;Uid=root;";
         public string? ins, dis;
         public Form1()
         {
